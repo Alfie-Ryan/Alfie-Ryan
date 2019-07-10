@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+    <head>
+
+    </head>
+    <body>
+<input type="text" name="name" id="no" placeholder="Enter name"><br>
+<input type="text" name="name" id="no1" placeholder="Email"><br>
+<input type="text" name="name" id="no2" placeholder="password"><br>
+
+<button onclick="check(); hey();">submit</button>
+
+<p id='f1'></p>
+<p id="f2"></p>
+<p id="f3"></p>
+<script> 
+   
+    
+
+    function check()
+    {
+         // collection of data
+        var name = document.getElementById('no').value; 
+        var email = document.getElementById('no1').value; 
+        var password = document.getElementById('no2').value; 
+
+        // output
+        document.getElementById('f1').innerHTML = name;
+        document.getElementById('f2').innerHTML = email;
+        document.getElementById('f3').innerHTML = password;
+
+        console.log('Hello!'); 
+    }
+
+    function hey() {
+        console.log("Hey"); 
+    }
+
+    </script>
+
+
+    </body>
+</html>

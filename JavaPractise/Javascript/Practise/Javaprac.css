@@ -1,0 +1,29 @@
+.Div { 
+background-color: burlywood;
+border: 1px solid black;
+width: 300px;
+height: 400px;
+position: relative;
+text-align: center;
+font-family: sans-serif;
+color: white;
+font-size: 15px;
+}
+
+.TextBox {
+width: 150px;
+height: 25px;
+color: rgb(0, 0, 0);
+border: 1px solid gray; 
+}
+
+.Button { 
+width: 100px;
+height: 30px;
+color: burlywood;
+background-color: white;
+border: none;
+font-family: sans-serif;
+font-size: 13px;
+
+}

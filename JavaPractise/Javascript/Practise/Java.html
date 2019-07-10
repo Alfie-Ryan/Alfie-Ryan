@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+<head>
+<link rel="stylesheet" href="Javaprac.css">
+</head>
+<body>
+    <form name="myform">
+    <div class="Div">
+        <br><br>
+        <h1>Enter details to win!</h1>
+        <br><br>
+        <input class="TextBox" type="text" placeholder="Name" name="name" required>
+        <br><br>
+        <input class="TextBox" type="text" placeholder="E-Mail" name="E-Mail" required>
+        <br><br>
+        <input class="TextBox" type="text" placeholder="Phone Number" name="Phone Number" required>
+        <br><br>
+        <p><button onclick='check(); return false' class="Button">Submit</button></p>
+
+    
+
+            <script>
+                function check() 
+                {
+                    document.getElementById('f1').innerHTML = document.myform.Name.value;
+
+
+                }
+
+
+            </script>
+    </div> 
+    <div class="Div" >
+        <br><br>
+        <h1>Results</h1>
+        <br><br>
+        <p id="f1"></p>
+        <br><br>
+        <input class="TextBox" type="text" placeholder="E-Mail" name="E-Mail">
+        <br><br>
+        <input class="TextBox" type="text" placeholder="Phone Number" name="Phone Number">
+        <br><br>
+    </div>
+    </form>
+     <p id='Click'></p>
+
+</body>
+</html>

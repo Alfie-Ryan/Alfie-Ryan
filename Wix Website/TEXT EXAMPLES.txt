@@ -1,0 +1,68 @@
+
+#id3 {
+    font-family: sans-serif;
+    font-size: 12px;
+    color: rgb(9, 79, 119);
+    text-align: center;
+   width: 100%;
+   padding: 15px;
+   margin-bottom: 0px;
+}
+
+#id4 {
+    font-family: sans-serif;
+    font-size: 35px;
+    color: rgb(9, 79, 119);
+    text-align: center;
+   width: 100%;
+   padding: 15px;
+   margin-top: 0px;
+   margin-bottom: 25px;
+}
+
+.box { 
+    float: left;
+width: 200px;
+height: 350px;
+text-align: center;
+background-color: rgb(9, 79, 119);
+font-family: sans-serif;
+padding: 50px;
+margin: 15px;
+display: inline;
+color: white;
+resize: auto;
+overflow: auto;
+margin-left: 30px;
+margin-right: 30px;
+}
+
+.container {
+    text-align: center
+}
+
+article {
+
+background-color: white;
+
+box-align: center;
+height: 600px;
+overflow: auto;
+
+}
+
+
+<div style="background-color:rgb(197, 239, 253);height:1000px;width:100%;padding-left: 50px;" ">
+
+
+border-width: 3px;
+border-color: black;
+border-style: solid;
+
+
+    <input style="width: 290px;height:25px" type="text" placeholder="Name" name="name" required>
+    <br>
+    <br>
+    <input style="width: 290px;height:25px" type="text" placeholder="Email" name="Email" required>
+    <br><br>
+    <input style="width: 290px;height:25px" type="text" placeholder="Subject" name="Subject" required>

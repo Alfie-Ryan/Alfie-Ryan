@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+        <link rel="stylesheet" type="text/css" href="CalcCss.css">
+        <script type ="text/javascript">
+        function calc() {
+            var B1 = parseFloat(document.getElementById("B1").value)   
+            var B2 = parseFloat(document.getElementById("B2").value) 
+
+            var op = document.getElementById("Choose").value
+
+            if(op === "+") {
+                document.getElementById("result").value = B1+B2;
+
+            }
+            if(op === "-") {
+                document.getElementById("result").value = B1-B2;
+
+            }
+            if(op === "x") {
+                document.getElementById("result").value = B1*B2;
+
+            }
+            if(op === "/") {
+                document.getElementById("result").value = B1/B2;
+
+            }
+            if(op === "%") {
+                document.getElementById("result").value = B1%B2;
+
+            }
+        }
+
+        </script>
+        
+
+        <style>
+   
+        </style>
+
+    </head>
+    <body>
+<div id="div">
+        <input type="text" id="B1" class="box" name="box1" value="0.0" > 
+    <select id="Choose" class="button">
+        <option value="+">+</option>
+        <option value="-">-</option>
+        <option value="x">x</option>
+        <option value="/">/</option>
+        <option value="%">%</option>
+    </select>
+         <input type="text" class="box" id="B2" name="box2" value="0.0"><br>
+        <br>
+        <input class="button2" style="margin-left: 208px;" type="button" value="=" onclick="calc();">
+        <br><br>
+
+        <input class="box" style="margin-left: 125px;" type="text" id="result" name="box3">
+</div>
+
+    </body>
+</html>

@@ -1,0 +1,539 @@
+body {
+    background-image: url("");
+    background-repeat: repeat;
+    margin: 0;
+    }
+
+
+ul {
+list-style-type: none;
+margin: 0;
+padding: 20px;
+overflow: hidden;
+}
+
+li {
+display: block;
+float: right;
+font-family: sans-serif;
+color:black; 
+margin-left: 10px;
+margin-bottom: 10px;
+
+}
+
+li a {
+display: none;
+text-align: center;
+padding: 50px;
+font-size: 20px;
+}
+
+li > a { 
+display: inline;
+color: black;
+text-decoration: none;
+padding: 10px;
+}
+
+li a:hover, dropdown:hover .drop {
+    color: green;
+}
+
+li a, .drop {
+display: inline-block;
+color: black;
+background-color: white;
+text-align: center;
+padding: 14px 16px;
+text-decoration: none;
+}
+
+li.dropdown {
+display: inline-block;
+}
+
+.dropdown-content {
+display: none;
+position: absolute;
+background-color: white;
+color: black;
+min-width: 100px;
+box-shadow: 0px 8px 10px 0px;
+z-index: 1;
+margin-top: 10px;
+text-align: center;
+}
+
+.dropdown-content a {
+color: black;
+text-decoration: none;
+display: block;
+text-align: center;
+font-size: 12px;
+}
+
+.dropdown-content a:hover { 
+background-color: none;
+} 
+
+.dropdown:hover .dropdown-content { 
+display: block;
+    }
+    
+       
+#id2 { 
+    display: inline;
+float: right;
+margin: 0;
+padding: 0;
+overflow: hidden;
+font-family: sans-serif;
+color: black;
+margin-bottom: 10px;
+font-size: 13px;
+margin-left: 25px;
+margin-right: 25px;
+}
+
+#id2 > a {
+    display: inline;
+    color: black;
+    text-decoration: none;
+    padding: 10px;
+}
+
+#id2 a:hover {
+color:darkcyan;
+}
+
+       
+#id { 
+    display: inline;
+float: right;
+margin: 0;
+padding: 0;
+overflow: hidden;
+font-family: sans-serif;
+color: black;
+margin-bottom: 10px;
+font-size: 13px;
+margin-left: 25px;
+margin-right: 25px;
+}
+
+#id > a {
+    display: inline;
+    color: black;
+    text-decoration: none;
+    padding: 10px;
+}
+
+#id a:hover {
+color:darkcyan;
+}
+
+#Heading {
+color: white;
+font-size: 150px;
+padding-left: 100px;
+}
+
+section {
+    margin-top: -60px;
+width: 100%;
+height: 1000px;
+background-image: url("pitch.jpg")
+}
+
+#ball {
+    float: left;
+    width: 100px;
+    height: 100px;
+}
+
+table, th, td {
+border: 1px solid black;
+border-collapse: collapse;
+font-family: sans-serif;
+}
+
+th, td { 
+padding: 15px;
+text-align: left;
+}
+.table {
+    background-color: rgb(233, 40, 40);
+}
+#T2 {
+    background-color: rgb(43, 43, 245);
+
+ }
+ #T3 {
+     background-color: rgb(168, 47, 47);
+}
+#T4 {
+background-color: blue;
+
+}
+#T5 {
+    background-color: rgb(17, 17, 121);
+}
+
+.img { 
+border-radius: 50%;
+-webkit-transform: rotate(360deg);
+transform: rotate(360deg);
+}
+
+.img:hover {
+-webkit-transform: rotate(360deg);
+transform: rotate(360deg);
+}
+
+.Contain {
+position: relative;
+width: 250px;
+height: 320px;
+}
+
+.thecard {
+position: absolute;
+width: 100%;
+height: 100%;
+transform-style: preserve-3d;
+transition: all 0.5s ease;
+
+}
+
+.thecard:hover {
+transform: rotateY(180deg);
+
+
+}
+
+.thefront {
+position: absolute;
+width: 100%;
+height: 100%;
+backface-visibility: hidden;
+background: blue;
+background-color:red;
+color: white;
+font-family: sans-serif;
+}
+
+
+.theback {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    backface-visibility: hidden;
+    background: rgb(75, 25, 25);
+    background-color: rgb(255, 0, 0);
+    transform: rotateY(180deg);    
+}
+
+.box {
+    background-color: rgb(4, 134, 4,0.5);
+    padding: 50px;
+   
+}
+.Contain {
+    position: relative;
+    width: 250px;
+    height: 320px;
+    }
+    
+    .thecard {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    transform-style: preserve-3d;
+    transition: all 0.5s ease;
+    
+    }
+    
+    .thecard:hover {
+    transform: rotateY(180deg);
+    
+    
+    }
+    
+    .thefront2 {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    backface-visibility: hidden;
+    background: blue;
+    background-color:rgb(30, 9, 219);
+    color: white;
+    font-family: sans-serif;
+    }
+    
+    
+    .theback2 {
+        position: absolute;
+        width: 100%;
+        height: 350px;
+        backface-visibility: hidden;
+        background: rgb(75, 25, 25);
+        background-color: rgb(30, 9, 219);
+        transform: rotateY(180deg);    
+    }
+    
+    .Contain {
+        position: relative;
+        width: 250px;
+        height: 320px;
+        }
+        
+        .thecard {
+        position: absolute;
+        width: 100%;
+        height: 100%;
+        transform-style: preserve-3d;
+        transition: all 0.5s ease;
+        
+        }
+        
+        .thecard:hover {
+        transform: rotateY(180deg);
+        
+        
+        }
+        
+        .thefront3 {
+        position: absolute;
+        width: 100%;
+        height: 99%;
+        backface-visibility: hidden;
+        background: blue;
+        background-color:rgb(255, 255, 255);
+        color: rgb(0, 0, 0);
+        font-family: sans-serif;
+        border: 2px solid black;
+        }
+        
+        
+        .theback3 {
+            position: absolute;
+            width: 100%;
+            height: 99%;
+            backface-visibility: hidden;
+            background: rgb(75, 25, 25);
+            background-color: rgb(255, 255, 255);
+            transform: rotateY(180deg);    
+            border: 2px solid black;
+            color: black;
+        }
+        
+.Containtoo {
+position: relative;
+background-color: darkcyan;
+width: 380px;
+height: 400px;
+margin-top: 50px;
+}
+
+
+.Contain {
+    position: relative;
+    width: 250px;
+    height: 320px;
+    }
+    
+    .thecard {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    transform-style: preserve-3d;
+    transition: all 0.5s ease;
+    
+    }
+    
+    .thecard:hover {
+    transform: rotateY(180deg);
+    
+    
+    }
+    
+    .thefront4 {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    backface-visibility: hidden;
+    background-color: rgb(124, 44, 59);
+    color: rgb(255, 255, 255);
+    font-family: sans-serif;
+
+    }
+    
+    
+    .theback4 {
+        position: absolute;
+        width: 100%;
+        height: 100%;
+        backface-visibility: hidden;
+        background-color: rgb(124, 44, 59);
+        transform: rotateY(180deg);    
+        color: rgb(255, 255, 255);
+    }
+
+    
+.Contain {
+    position: relative;
+    width: 250px;
+    height: 320px;
+    }
+    
+    .thecard {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    transform-style: preserve-3d;
+    transition: all 0.5s ease;
+    
+    }
+    
+    .thecard:hover {
+    transform: rotateY(180deg);
+    
+    
+    }
+    
+    .thefront5 {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    backface-visibility: hidden;
+    background-color: rgb(27, 69, 143);
+    color: rgb(255, 255, 255);
+    font-family: sans-serif;
+
+    }
+    
+    
+    .theback5 {
+        position: absolute;
+        width: 100%;
+        height: 100%;
+        backface-visibility: hidden;
+        background-color: rgb(27, 69, 143);
+        transform: rotateY(180deg);    
+        color: rgb(255, 255, 255);
+    }
+
+   button {
+width: 100px;
+height: 30px;
+color:rgb(255, 255, 255);
+background-color: rgb(12, 78, 78);
+border: none;
+text-decoration: none;
+display: inline-block;
+font-family: sans-serif;
+font-size: 15px;
+display: inline-block;
+   }
+
+.button:hover {
+    color: rgb(0, 0, 0);
+}
+
+footer {
+background-color: grey;
+width: 100%;
+height: 100px;
+font-family: sans-serif;
+color: white;
+font-size: 15px;
+margin-bottom: -10px;
+}
+
+.Contain {
+    position: relative;
+    width: 250px;
+    height: 320px;
+    }
+    
+    .thecard {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    transform-style: preserve-3d;
+    transition: all 0.5s ease;
+    
+    }
+    
+    .thecard:hover {
+    transform: rotateY(180deg);
+    
+    
+    }
+    
+    .thefront5 {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    backface-visibility: hidden;
+    background-color: rgb(218, 19, 19);
+    color: rgb(255, 255, 255);
+    font-family: sans-serif;
+
+    }
+    
+    
+    .theback5 {
+        position: absolute;
+        width: 100%;
+        height: 100%;
+        backface-visibility: hidden;
+        background-color: rgb(224, 12, 12);
+        transform: rotateY(180deg);    
+        color: rgb(255, 255, 255);
+    }
+
+    .Contain {
+        position: relative;
+        width: 250px;
+        height: 320px;
+        }
+        
+        .thecard {
+        position: absolute;
+        width: 100%;
+        height: 100%;
+        transform-style: preserve-3d;
+        transition: all 0.5s ease;
+        
+        }
+        
+        .thecard:hover {
+        transform: rotateY(180deg);
+        
+        
+        }
+        
+        .thefront6 {
+        position: absolute;
+        width: 100%;
+        height: 100%;
+        backface-visibility: hidden;
+        background-color: rgb(30, 9, 219);
+        color: rgb(255, 255, 255);
+        font-family: sans-serif;
+    
+        }
+        
+        
+        .theback6 {
+            position: absolute;
+            width: 100%;
+            height: 100%;
+            backface-visibility: hidden;
+            background-color: rgb(30, 9, 219);
+            transform: rotateY(180deg);    
+            color: rgb(255, 255, 255);
+        }
+
