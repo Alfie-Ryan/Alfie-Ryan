@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html>
+<head>
+     <link rel="stylesheet" type="text/css" href="£to$.css">
+     <script type="text/javascript">
+         function convertCurrency() {
+            var from = parseFloat(document.getElementById("from").value)
+            var to = parseFloat(document.getElementById("to").value)
+            
+            var pnd, usd, eur, inr, jpy, php
+
+            var from = document.getElementById("ENG").value
+
+            pnd = 1
+            usd = 1.25499
+            jpy = 135.888371
+            eur = 1.114782
+            inr = 85.833755
+            php = 64.267122
+            
+            if(usd === "USD") {
+                document.getElementById("from").value = pnd*usd;
+            }
+            console.log;
+
+
+            }
+            
+         
+     
+     
+     </script>
+</head>
+<body>
+    <div id="div">
+        <h1 style="text-align: center; ">Currency Converter</h1>
+       
+                <img src="uk.jpg" style="width: 200px;height: 100px;margin-left: 150px;">
+                <br><br><br>
+                <input id="from ENG" type="text" class="box" placeholder="English Pound" style="margin-left: 165px;" value="1.0">
+                
+                <img src="pound.png" style="width: 15px;height: 15px;" >  <br><br> 
+                <button style="margin-left: 215px;" onclick="convertCurrency();"><b>Convert</b></button>
+             <br><br><br><br><br>
+           <div class="div2" style="margin-left: 10px;"  >
+                <h1 class="type">USD</h1>
+                <img src="Usa.png" style="width: 60px; height:40px;margin-left: 90px;margin-top: 300px;position: absolute;margin-top: 10px;">
+                <input id="to usd" type="text" class="box" placeholder="American Dollar" style="margin-left: 162px;position: absolute;margin-top: 20px;" > 
+                <img src="Dollar(USA).png" style="width: 17px; height: 17px;position: absolute;margin-left: 320px;margin-top: 25px;" >
+           </div>
+           <br><br>
+           <div  class="div2" style="margin-left: 10px;"><br><br>
+                <h1 class="type">EUR</h1>
+                <img src="EuroFlag.jpg" style="width: 60px; height:40px;margin-left: 90px;margin-top: 300px;position: absolute;margin-top: 10px;">
+                <input id="to eur" type="text" class="box" placeholder="Euros"style="margin-left: 162px;position: absolute;margin-top: 20px;" > 
+                <img src="euro.png" style="width: 17px; height: 17px;position: absolute;margin-left: 320px;margin-top: 25px;" >
+           </div>
+           <br><br>
+           <div  class="div2" style="margin-left: 10px;"><br><br>
+                <h1 class="type">INR</h1>
+                <img src="IndianFlag.png" style="width: 60px; height:40px;margin-left: 90px;margin-top: 300px;position: absolute;margin-top: 10px;">
+                <input id="to inr" type="text" class="box" placeholder="Indian Rupees" style="margin-left: 162px;position: absolute;margin-top: 20px;" > 
+                <img src="Rupees.png" style="width: 17px; height: 17px;position: absolute;margin-left: 320px;margin-top: 25px;" >
+           </div>
+           <br><br>
+           <div class="div2" style="margin-left: 10px;"><br><br>
+                <h1 class="type">JPY</h1>
+                <img src="japan.png" style="width: 60px; height:40px;margin-left: 90px;margin-top: 300px;position: absolute;margin-top: 10px;">
+                <input id="to jpy" type="text" class="box" placeholder="Japanese Yen" style="margin-left: 162px;position: absolute;margin-top: 20px;" > 
+                <img src="Yen(JPN).png" style="width: 25px; height: 25px;position: absolute;margin-left: 315px;margin-top: 22px;" >
+           </div>
+           <br><br>
+           <div class="div2" style="margin-left: 10px;"><br><br>
+                <h1 class="type">PHP</h1>
+                <img src="phillapinesFlag.jpg" style="width: 60px; height:40px;margin-left: 90px;margin-top: 300px;position: absolute;margin-top: 10px;">
+                <input id="to php" type="text" class="box" placeholder="Phillapine Pesos" style="margin-left: 162px;position: absolute;margin-top: 20px;" > 
+                <img src="Pesos.png" style="width: 25px; height: 25px;position: absolute;margin-left: 315px;margin-top: 22px;" >
+           </div>
+
+    </div>
+</body>
+</html>
