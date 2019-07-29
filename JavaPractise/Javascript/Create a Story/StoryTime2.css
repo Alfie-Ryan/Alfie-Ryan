@@ -1,0 +1,72 @@
+#div { 
+background-color: burlywood;
+width: 600px;
+height: 200px;
+
+position: relative;
+margin: auto;
+top: 0;
+bottom: 0;
+right: 0;
+left: 0;
+padding: 10px;
+border: 4px dashed black;
+
+
+}
+
+#div2 { 
+    background-color: burlywood;
+    width: 600px;
+    height: 200px;
+    
+    position: relative;
+    margin: auto;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    left: 0;
+    padding: 10px; 
+    border: 4px dashed black;
+  
+}
+
+.box { 
+
+    width: 80px;
+}
+
+.div3 { 
+ text-align: center;
+}
+
+.img { 
+    width: 450px;
+    height: 250px;
+}
+body {
+    font-family: Bradley Hand, cursive;
+}
+
+#div4 { 
+    background-color: burlywood;
+    width: 600px;
+    height: 200px;
+    
+    position: relative;
+    margin: auto;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    left: 0;
+    padding: 10px; 
+    border: 4px dashed black;
+
+ }
+
+ #Nobox { 
+ border: 0;
+ outline: none;
+ background-color: burlywood;
+ }
+

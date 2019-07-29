@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <link rel="stylesheet" type="text/css" href="StoryTime2.css">
+ 
+</head>
+<body>
+<h1 style="text-align: center;">Story Time</h1>
+<p style="text-align: center;">Help fill in the blanks to create a Story!</p>
+<img class="img" src="picnic.jpg">
+<div id="div" style="margin-top: -130px;">
+    <form>
+<p>If you go down to the <select id="woods">
+        <option></option>
+        <option>Woods</option>
+        <option>Tescos</option>
+        <option>School</option>
+        </select> today,
+    you're sure of a big surprise ,
+    If you go down to the <select id="woods2">
+        <option></option>
+        <option>Garden</option>
+        <option>Pool</option>
+        <option>Woods</option>
+
+        </select> today, 
+    you'd better go in <select id="disguise">
+        <option></option>
+        <option>A Car</option>
+        <option>Disguise</option>
+        <option>Gloves</option>
+    
+    </select>
+    For every bear that ever there was will gather there for certain
+    Because today's the day
+    the <select id="teddy"> 
+        <option></option>
+        <option>Crazy</option>
+        <option>Teddy</option>
+        <option>Smelly</option>
+
+    </select> bears have their 
+    <select id="picnic">
+        <option></option>
+        <option>Picnic</option>
+        <option>Shoes Cleaned</option>
+        <option>Face Painted</option>
+    </select>.</p>
+
+</form>
+</div>
+
+<br><br><br>
+<div class="div3"><br><br>
+<button type="button" onclick="StoryTime()">Create Story</button>
+</div>
+<br><br><br>
+<h1 style="text-align: center;" id="txt">Your Story!</h1>
+<div id="div2" >
+
+</div>
+<br><br>
+<h1 style="text-align: center;" id="txt" >Original Story</h1>
+
+<div id="div4">
+
+
+</div>
+
+    <img src="TBp.png" style="float: right;margin-top: -200px;" >
+<br><br><br>
+
+<script>
+    function StoryTime() { 
+
+var woods = document.getElementById('woods').value;
+var woods2 = document.getElementById('woods2').value;
+var disguise = document.getElementById('disguise').value;
+var teddy = document.getElementById('teddy').value
+var picnic = document.getElementById('picnic').value
+
+document.getElementById("div2").innerHTML = " If you go down to the " + woods + " today, you're sure of a big surprise , If you go down to the " 
++ woods2 + " today, you'd better go in " + disguise + " For every bear that ever there was will gather there for certain Because todays the day the "
++ teddy + " bears have their " + picnic + " ! ";
+    
+document.getElementById("div4")
+.innerHTML =  " If you go down to the woods today, you're sure of a big surprise , If you go down to the woods today, you'd better go in disguise For every bear that ever there was will gather there for certain Because todays the day the teddy bears have their picnic ! "
+
+
+
+}
+ </script>
+
+</body>
+</html>
+
+
+
