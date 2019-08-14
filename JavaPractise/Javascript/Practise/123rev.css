@@ -1,0 +1,6 @@
+#paste { 
+unicode-bidi: bidi-override;
+direction: rtl;
+text-align: left;
+
+}
