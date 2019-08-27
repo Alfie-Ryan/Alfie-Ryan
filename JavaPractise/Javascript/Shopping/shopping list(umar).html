@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Shopping List</title>
+    <style>
+        .container{
+             text-align: center;
+        }
+        .pCont li{
+            text-align: center;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+       <h1>Shopping List</h1>
+       <input type="text" name="text" id="inputText">
+       <button onclick="pushData()">Show</button>
+        <div class="pCont">
+            <p></p>
+        </div>
+    </div>
+   
+    <script>
+        
+        var myArr = ["","Bread", "Milk","Eggs"];
+
+            var inputText = document.getElementById("inputText").value;
+ 
+            var pval = "";
+
+            for(i = 1; i < myArr.length; i++)
+            {
+                pval = pval + i + "." + myArr[i]+ "<br/>";
+            }
+            document.getElementsByTagName("p")[0].innerHTML = pval;
+        
+            function pushData(){
+
+                var inputText = document.getElementById("inputText").value;
+                myArr.push(inputText);
+                var pval = "";
+
+                for(i = 1; i < myArr.length; i++)
+                {
+                    pval = pval + i + "." + myArr[i]+ "<br/>";
+                }
+                document.getElementsByTagName("p")[0].innerHTML = pval;
+            }
+    </script>
+</body>
+</html>

@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+<head> 
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta http-equiv="X-UA-Compatible" content="ie=edge">
+</head>
+<body>
+    <input id="item" placeholder="Enter Item">
+    <button onclick="add()">Add</button>
+<div class="p">
+    <p></p>
+</div>
+<script>
+
+var shopping = ["","Bread", "Milk","Eggs"];
+
+            var item = document.getElementById("item").value;
+ 
+            var pval = "";
+
+            for(i = 1; i < shopping.length; i++)
+            {
+                pval = pval + i + "." + shopping[i]+ "<br/>";
+            }
+            document.getElementsByTagName("p")[0].innerHTML = pval;
+        
+            function add(){
+
+                var item = document.getElementById("item").value;
+                shopping.push(item);
+                var pval = "";
+
+                for(i = 1; i < shopping.length; i++)
+                {
+                    pval = pval + i + "." + shopping[i]+ "<br/>";
+                }
+                document.getElementsByTagName("p")[0].innerHTML = pval;
+            }
+    </script>
+    </body> 
+    </html>

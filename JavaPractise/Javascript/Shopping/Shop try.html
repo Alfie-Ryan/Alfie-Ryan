@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+<head> 
+</head>
+<body>
+    <input id="item" placeholder="Enter Item">
+    <button onclick="add()">Add</button>
+<p id="Cart"></p>
+</body>
+<script>
+    var shopping, text, fLen, i, item, x;
+    
+    shopping = ["Milk", "Bread", "Eggs", "Butter"];
+    fLen = shopping.length;
+
+
+    text = "<ol>";
+    for (i = 0; i < fLen; i++) {   // Looped code // 
+        text += "<li>" + shopping[i] + "</li>";
+    }
+    text += "</ol>";
+    document.getElementById("Cart").innerHTML = text;
+
+
+    function add() { 
+       
+        
+       let x = document.getElementById("item").value;
+     
+        shopping.push("")
+
+        document.getElementById("Cart").innerHTML = shopping + x;
+
+    }
+
+</script>   
+</html>
